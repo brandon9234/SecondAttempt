@@ -1,0 +1,20 @@
+{
+  "generated_at": null,
+  "menus": [
+    {
+      "handle": "main-menu",
+      "items": [
+        {
+          "items": [],
+          "resource_id": null,
+          "title": "Home",
+          "type": "HTTP",
+          "url": "/"
+        }
+      ],
+      "source_id": null,
+      "title": "Main Menu",
+      "updated_at": null
+    }
+  ]
+}

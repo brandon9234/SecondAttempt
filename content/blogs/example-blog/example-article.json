@@ -1,0 +1,14 @@
+{
+  "article_handle": "example-article",
+  "author": "Repository",
+  "blog_handle": "example-blog",
+  "body_html": "<p>Placeholder article. Replace with imported source content.</p>",
+  "published": true,
+  "published_at": null,
+  "source_id": null,
+  "summary_html": "",
+  "tags": ["example"],
+  "template_suffix": null,
+  "title": "Example Article",
+  "updated_at": null
+}

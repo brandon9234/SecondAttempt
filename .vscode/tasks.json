@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Validate repo",
+      "type": "shell",
+      "command": "python scripts/validate_repo.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build manifests",
+      "type": "shell",
+      "command": "python scripts/catalog_build.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Source export",
+      "type": "shell",
+      "command": "python scripts/source_export.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Download source media",
+      "type": "shell",
+      "command": "python scripts/source_download_media.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Transform source to repo",
+      "type": "shell",
+      "command": "python scripts/source_transform_all.py",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Sync catalog (DRY_RUN)",
+      "type": "shell",
+      "command": "bash -lc 'set -a; [ -f .env ] && source .env; set +a; DRY_RUN=true python scripts/catalog_sync.py'",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Sync catalog (LIVE)",
+      "type": "shell",
+      "command": "bash -lc 'set -a; [ -f .env ] && source .env; set +a; DRY_RUN=false python scripts/catalog_sync.py'",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Sync content (DRY_RUN)",
+      "type": "shell",
+      "command": "bash -lc 'set -a; [ -f .env ] && source .env; set +a; DRY_RUN=true python scripts/content_sync.py'",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Theme pull (source)",
+      "type": "shell",
+      "command": "bash scripts/theme_pull_source.sh",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Theme push",
+      "type": "shell",
+      "command": "bash scripts/theme_push.sh",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Full replicate deploy",
+      "type": "shell",
+      "command": "bash -lc 'set -a; [ -f .env ] && source .env; set +a; DRY_RUN=false python scripts/full_replicate_sync.py'",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

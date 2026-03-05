@@ -1,0 +1,14 @@
+{
+  "handle": "example-product",
+  "title": "Example Performance Tee",
+  "description_html": "<p>Lightweight performance tee with moisture-wicking fabric.</p>",
+  "vendor": "Acme Outfitters",
+  "product_type": "Apparel",
+  "tags": ["example", "tee", "performance"],
+  "collections": ["featured", "summer-collection"],
+  "sku": "EX-TEE-001",
+  "price": "29.99",
+  "compare_at_price": "39.99",
+  "barcode": "1234567890123",
+  "inventory_quantity": 50
+}

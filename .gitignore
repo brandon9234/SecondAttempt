@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Generated catalog artifacts
+catalog/media_manifest.json
+catalog/products_manifest.json
+catalog/pages_manifest.json
+catalog/blog_manifest.json
+catalog/navigation_manifest.json
+catalog/sync_state.json
+catalog/source_snapshot.json
+catalog/import_logs/*.json
+
+# Editor / OS
+.DS_Store
+.vscode/*.log

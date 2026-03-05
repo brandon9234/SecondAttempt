@@ -1,0 +1,32 @@
+{
+  "external_script_references": [
+    "https://cdn.shopify.com/extensions/019c8f17-f25b-71cc-922c-93929dc94ae4/wholesale-lock-hide-price-114/assets/samitaLock.js",
+    "https://cdn.shopify.com/extensions/019cb184-bfda-7444-a64a-95050be05224/madgic-checkout-validation-306/assets/orichi-limit-purchase.js",
+    "https://cdn.shopify.com/extensions/019cb308-6530-7027-aa8c-8d5e72d5e4e2/multivariants-63/assets/app.js",
+    "https://cdn.shopify.com/extensions/019cb308-6530-7027-aa8c-8d5e72d5e4e2/multivariants-63/assets/mv.js",
+    "https://cdn.shopify.com/extensions/019cb6e1-f750-736f-ae38-607ff79cd2d9/powerful-form-builder-293/assets/globo.formbuilder.index.js",
+    "https://cdn.shopify.com/extensions/019cb72c-d813-7235-aca0-ad1691299cb2/dealeasy-218/assets/dealeasy-widgets.esm.js",
+    "https://cdn.shopify.com/extensions/019cb72c-d813-7235-aca0-ad1691299cb2/dealeasy-218/assets/lb-dealeasy.js",
+    "https://cdn.shopify.com/extensions/019cb850-1e49-75f2-8d57-d5811763c224/judgeme-extensions-392/assets/loader.js",
+    "https://chimpstatic.com/mcjs-connected/js/users/c4440b955f4699280083f5bb1/8d166755330cd1bbdd2a29ece.js"
+  ],
+  "generated_at": "2026-03-04T23:07:36.398903+00:00",
+  "inferred_apps": [
+    "Checkout Validation",
+    "Dealeasy",
+    "Globo Form Builder",
+    "Judge.me",
+    "Mailchimp",
+    "MultiVariants",
+    "Wholesale Lock / Hide Price"
+  ],
+  "manual_install_checklist": [
+    "Install each required app in target store.",
+    "Reconfigure app embeds/blocks and app-level settings.",
+    "Recreate app-specific metafields and automation rules if required.",
+    "Validate storefront behavior for reviews, forms, pricing locks, and bundle widgets."
+  ],
+  "pages_scanned": 25,
+  "source_store": "quickclipsfloral.com",
+  "theme_matches": []
+}
